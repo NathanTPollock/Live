@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-spacing: 3;
+}
+
+th, td{
+    padding: 3;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    font: 20px Arial, serif;
+    padding: 50px;
+}
+
+img {
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
