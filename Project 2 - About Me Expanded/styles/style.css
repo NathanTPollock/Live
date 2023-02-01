@@ -11,7 +11,7 @@ th, td{
 }
 
 body {
-    background-image: url(".../Resources/background.jpg");
+    background-image: url("C:\Users\shado\Web Development 1\Resources\background.jpg");
     background-repeat: repeat;
     font: 12px Tahoma, Arial, serif;
 }
