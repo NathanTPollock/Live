@@ -11,7 +11,7 @@ th, td{
 }
 
 body {
-    background-image: url("C:\Users\shado\Web Development 1\Resources\background.jpg");
+    background-image: url("Resources/background.jpg");
     background-repeat: repeat;
     font: 12px Tahoma, Arial, serif;
 }
@@ -19,6 +19,7 @@ body {
 img {
     float: right;
     padding: 0 20px 20px 0;
+    border: 2px solid white;
 }
 
 a {
@@ -37,5 +38,37 @@ p {
 h1 {
     font-size: 30px;
     text-decoration: dotted;
+    margin-top: 22px;
+    margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 18px;
+    margin-top: 13px;
+    margin-bottom: 6px;
+}
+
+.routine {
+    background-color: aqua;
+    border: 1px solid rgb(3, 201, 201);
+}
+
+.bus {
+    background-color: blueviolet;
+    border: 1px solid rgb(114, 36, 187);
+}
+
+.work {
+    background-color: blanchedalmond;
+    border: 1px solid rgb(221, 204, 178);
+}
+
+.break {
+    background-color: coral;
+    border: 1px solid rgb(228, 112, 71);
+}
+
+.school {
+    background-color: cornflowerblue;
+    border: 1px solid rgb(88, 130, 207);
+}
