@@ -5,7 +5,7 @@ table, th, td {
 table {
     border-spacing: 3;
     table-layout: fixed;
-    width: 60%;
+    width: 40%;
     text-align: center;
     font-weight: lighter;
     margin: auto;
@@ -15,25 +15,17 @@ th, td{
     padding: 3;
 }
 
-th {
-
-}
-
 html {
     background-image: url("../resources/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 body {
-    background-repeat: repeat;
+    background-color:ivory;
     font: 12px Tahoma, Arial, serif;
     padding: 25px 50px;
     margin: 50px 100px;
-    border: 3px double black;
-}
-
-img {
-    float: right;
-    padding: 10px;
     border: 3px double black;
 }
 
@@ -51,16 +43,24 @@ p {
 }
 
 h1 {
-    font-size: 30px;
+    font-family: Aclonica;
+    font-size: 33px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
     text-decoration: underline;
     margin-top: 22px;
     margin-bottom: 10px;
+    float: none;
+    text-align: center;
 }
 
 h2 {
     font-size: 18px;
     margin-top: 13px;
     margin-bottom: 6px;
+    border-bottom: 1px dashed black;
 }
 
 .routine {
@@ -90,4 +90,13 @@ h2 {
 
 .poem {
     text-align: center;
+    width: 50%;
+}
+
+img {
+    float: right;
+    padding: 10px;
+    margin-left: 20px;
+    border: 3px double black;
+    background-color: ivory;
 }
