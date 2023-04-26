@@ -11,21 +11,74 @@ or leaving my code on a public web site constitutes cheating.
 I acknowledge that  If I am found in violation of this policy this may result
 in a zero grade, a permanent record on file and possibly immediate failure of the class.
  
-Reflection (1-2 paragraphs): !!!!!!TODO!!!!!
+Reflection (1-2 paragraphs): I unfortunately had a lot of extenuating circumstances delaying my submissions on schoolwork greatly. Coming back to designing
+                             a website it has been evident that keeping up with standards and practicing your skills is vital to maintaining your knowledge.
+                             While it was time consuming as I had to refresh my knowledge on many topics, it was still enjoyable and good to see everything
+                             come together in the end.
 -->
 
 <html>
-  <body>
-    <nav>
-    </nav>
-    <header>
-    </header>
+    <head>
+        <link href="./css/main.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
+        <script src="./js/main.js"></script>
+    </head>
 
-    <main>
-      <section>
-      </section>
-    </main>
-    <footer>
-    </footer>
-  </body>
+    <body>
+    
+        <header>
+            <nav id="nav-grid">
+                <button onclick="goHome()">HOME</button>
+                <button onclick="goAbout()">ABOUT</button>
+                <button><img class="center" src="resources/pottery logo.jpg" alt="logo" height="80px"></button>
+                <button onclick="goContent()">CONTENT</button>
+                <button onclick="goContact()">CONTACT</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <h1>Nathan's Pottery</h1>
+                <iframe class="center" width="420" height="315" src="https://www.youtube.com/embed/LZAYv7L34qE"></iframe>
+            </section>
+
+            <section id="about">
+                <h1>About</h1>
+                <figure>
+                    <img class="center" src="resources/about image.jpg" alt="throwing process" width="60%">
+                    <figcaption class="center">Throwing a tall bowl on the wheel.</figcaption>
+                </figure>
+                <h2>Purpose</h2>
+                <div id="container">
+                    <p>We're trying to show off the possibilities in the wonderful world of clay.
+                        Between hand-building, throwing on a wheel, and intricate designs, we want to
+                        excite and extract the artist in all of us.<br><br>We offer all sorts of classes
+                        at our local studio. Give us a call for inquiries about classes and times.
+                    </p>
+                    <img src="./resources/various pots.jpg" alt="various pots" width = 60%>
+                </div>
+            </section>
+
+            <section id="content">
+                <h1>Content</h1>
+                <h2>Our Artist's Works</h2>
+                <div id="collection-container">
+                    <img src="./resources/pot 1.jpg" alt="pot 1" width="300px" height="300px">
+                    <img src="./resources/pot 2.jpg" alt="pot 2" width="300px" height="300px">
+                    <img src="./resources/pot 3.jpg" alt="pot 3" width="300px" height="300px">
+                    <img src="./resources/pot 4.jpg" alt="pot 4" width="300px" height="300px">
+                    <img src="./resources/pot 5.jpg" alt="pot 5" width="300px" height="300px">
+                </div>
+            </section>
+
+            <section id="contact">
+                <h1>Contact</h1>
+                <h2>Email: notanemail@noemail.com</h2>
+                <h2>Number: (888) 888-8888</h2>
+            </section>
+        </main>
+        <footer>
+            <p>Thank you for visiting my website, this is all for demo and education purposes. - Nathan Pollock</p>
+        </footer>
+    </body>
 </html>
