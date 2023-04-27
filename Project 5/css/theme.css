@@ -1,0 +1,44 @@
+/* I wanted the changes I made to essentially make the website into a dark mode as I almost
+exclusively use these modes and they are eye savers. I also rounded the look of the site to
+go along with dark mode making the site easier on the eyes. Specifically I changed: the
+background image, the color scheme, making the borders rounds with border-radius, the text
+color.*/
+body{
+    background: #3e4a61;
+    border-radius: 25px;
+}
+
+main{
+    background-color: #3e4a61;
+}
+
+html {
+    background-image: url("../resources/background-alternate.jpg");
+}
+
+h1 {
+    color: #d9dad7;
+}
+
+h2 {
+    color: #d9dad7
+}
+
+#nav-grid{
+    background-color: #1a2639;
+    border-radius: 25px;
+    padding-bottom: 5px;
+}
+
+#nav-grid > button{
+    border-radius: 25px;
+}
+
+#container {
+    background-color: #d9dad7;
+}
+
+#collection-container {
+    background-color: #d9dad7;
+    flex-direction: row-reverse;
+}
