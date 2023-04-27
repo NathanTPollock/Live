@@ -1,0 +1,137 @@
+/* Due to extenuating circumstances I am submitting my projects too close together
+to receive feedback so I have just organized my CSS code based on if its an element,
+class, or id selector. */
+
+html {
+    background-image: url("../resources/repeating\ background\ geometric.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: ivory;
+}
+
+h2 {
+    color: black;
+    font-family: Aclonica;
+    font-size: 1vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+
+p {
+    color: black;
+    font-family: Aclonica;
+    font-size: 1vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 26.4px;
+}
+
+body {
+    background: ivory;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Aclonica;
+    font-size: 2vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-decoration: underline;
+}
+
+figcaption {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px dotted black;
+    text-align: center;
+}
+
+footer > p {
+    font-size: 12px;
+}
+
+#nav-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    align-content: center;
+    
+    width: 100%;
+    background-color: ivory;
+}
+
+#nav-grid > button{
+    align-content:center;
+    background-color: white;
+    font-family: Aclonica;
+    font-size: 1vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-decoration: underline;
+}
+
+#container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 10%;
+    background-color: ivory;
+    gap: 5%;
+}
+
+@media only screen and (min-width : 900px) {
+    #container{
+        flex-direction: row;
+    }
+}
+
+#collection-container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    padding: 10%;
+    background-color: ivory;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about {
+    display: none;
+}
+
+#content {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
